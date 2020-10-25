@@ -19,3 +19,6 @@ Stemming is the process of reducing inflected or derived words to their base for
 Lemmatization is the process of reducing inflected or derived words to their base form or root form, which is similar to dictionary form (called as lemma), using morphological analysis. The lemma is usually identical to the morphological root of the word, which is used in dictionary.
 
 If we apply stemming/lemmatization on a document corpus, it will convert many inflected/derived form of a word into its root word and all those derived words will be treated as a single word when we construct the vocabulary from the given corpus. Hence, it will considerably decrease the size of the vocabulary.
+
+# Removing stop words, punctuations, and special characters
+Since in some cases stop words, punctuations, special characters do not add any additional meaning to the text corpus, we should think of removing those. If we remove those, this will help our text preprocessing and will help reduce vocabulary size. 
